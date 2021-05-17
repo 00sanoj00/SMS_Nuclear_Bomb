@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_150sdp">
+
+
+    <RelativeLayout
+        android:id="@+id/fixed"
+        android:background="@drawable/rounder_head"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_125sdp">
+
+        <TextView
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Version Alpha 0.0.1"
+            android:textSize="@dimen/_9sdp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/impact"/>
+
+        <ImageView
+            android:layout_width="@dimen/_200sdp"
+            android:layout_centerInParent="true"
+            android:layout_height="match_parent"
+            android:src="@drawable/banner"/>
+
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        app:cardCornerRadius="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:layout_marginStart="@dimen/_20sdp"
+        app:cardUseCompatPadding="true">
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/phoneno"
+            android:layout_height="@dimen/_36sdp"
+            android:inputType="phone"
+            android:textAllCaps="true"
+            android:textColorHint="@color/text_hint"
+            android:hint="@string/hint_number"
+            android:textColor="@color/black"
+            android:paddingStart="@dimen/_8sdp"
+            android:fontFamily="@font/impact"
+            android:textSize="@dimen/_20sdp"
+            android:background="@drawable/rounder_edit_text"
+            tools:ignore="RtlSymmetry,TextFields" />
+    </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/progtext"
+            android:textSize="@dimen/_9sdp"
+            android:textColor="@color/progtext"
+            android:fontFamily="@font/impact"/>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            app:cardCornerRadius="8dp"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="true">
+            <ProgressBar
+                android:id="@+id/activeProgress"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:indeterminateDrawable="@drawable/progress_backgrund"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_13sdp"
+                android:progress="10"
+                android:progressDrawable="@drawable/progress_backgrund"/>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <include
+                layout="@layout/center_layout"/>
+
+            <include
+                layout="@layout/center_bottom"/>
+
+            <Button
+                android:id="@+id/start"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:layout_width="@dimen/_135sdp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:fontFamily="@font/impact"
+                android:textSize="@dimen/_15sdp"
+                android:textColor="@color/white"
+                android:background="@drawable/rounder_button"
+                android:text="@string/start"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

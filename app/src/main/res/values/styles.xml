@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <style name="sflash" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/mainheadbg</item>
+        <item name="android:navigationBarColor">@color/mainheadbg</item>
+    </style>
+
+    <style name="fullScreen" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+</resources>

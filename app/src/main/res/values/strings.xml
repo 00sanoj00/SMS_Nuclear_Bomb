@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SMS Nuclear Bomb</string>
+    <string name="hint_number">Enter Mobile Number</string>
+    <string name="progtext">SEND NEW OTP REQUEST</string>
+    <string name="success">SUCCESS</string>
+    <string name="unsuccess">UNSUCCESS</string>
+    <string name="total">TOTAL</string>
+    <string name="start">START</string>
+    <string name="notebottom">To the loving hearts of Sri Lankans</string>
+    <string name="respons">HTTP RESPONCE</string>
+    <string name="funnynote">{ Hi, welcome. If you want to work, enter the desired number at the top and press the Start button }</string>
+</resources>
