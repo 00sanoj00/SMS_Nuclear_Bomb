@@ -1,4 +1,4 @@
-# SMS  Nuclear Bomb ![Build status](https://github.com/wallabag/android-app/workflows/CI/badge.svg?branch=master)
+# SMS  Nuclear Bomb !💣💣💣
 
 <img src="/control/rbanner.png" align="left"
 width="300" hspace="10" vspace="10">
