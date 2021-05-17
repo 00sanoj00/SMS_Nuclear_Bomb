@@ -45,13 +45,10 @@ public class MainActivity extends AppCompatActivity {
     private RequestQueue queue4;
     private RequestQueue queue5;
     private RequestQueue queueAppcontrol;
-    private String body = "{\"phone\":\"+94716474696\"}";
     private String url = "https://api.guru.lk/v1/auth/otp";
-    private String urltest = "https://sv2.ideamarthosting.dialog.lk/lakpriya1016Apps/wapp/otp2.php";
     private JSONObject jsonObject;
     private int success = 0;
     private int unsuccess = 0;
-
     private TextView mSuccess;
     private TextView mUnsuccess;
     private  TextView mTotal;
