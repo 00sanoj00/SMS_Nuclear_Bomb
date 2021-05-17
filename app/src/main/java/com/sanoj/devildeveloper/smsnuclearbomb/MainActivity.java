@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
     private RequestQueue queue4;
     private RequestQueue queue5;
     private RequestQueue queueAppcontrol;
-    private String url = "https://api.guru.lk/v1/auth/otp";
+    private String url = "link";
     private JSONObject jsonObject;
     private int success = 0;
     private int unsuccess = 0;
@@ -220,13 +220,13 @@ public class MainActivity extends AppCompatActivity {
                 Map<String, String> params = new HashMap<String, String>();
                 params.put("Host","api.guru.lk");
                 params.put("accept","application/json, text/plain, */*");
-                params.put("origin","https://guru.lk");
+                params.put("origin","xxxxx");
                 params.put("User-Agent","Mozilla/5.0 (Linux; Android 10; SM-M205F Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36");
                 params.put("content-type","application/json");
                 params.put("sec-fetch-site","same-site");
                 params.put("sec-fetch-mode","cors");
                 params.put("sec-fetch-dest","empty");
-                params.put("referer","https://guru.lk/2.0/auth");
+                params.put("referer","xxxxxx");
                 params.put("accept-encoding","gzip, deflate, br");
                 params.put("accept-language","en-GB,en-US;q=0.9,en;q=0.8");
 
@@ -281,13 +281,13 @@ public class MainActivity extends AppCompatActivity {
                 Map<String, String> params = new HashMap<String, String>();
                 params.put("Host","api.guru.lk");
                 params.put("accept","application/json, text/plain, */*");
-                params.put("origin","https://guru.lk");
+                params.put("origin","xxxxx");
                 params.put("User-Agent","Mozilla/5.0 (Linux; Android 10; SM-M205F Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36");
                 params.put("content-type","application/json");
                 params.put("sec-fetch-site","same-site");
                 params.put("sec-fetch-mode","cors");
                 params.put("sec-fetch-dest","empty");
-                params.put("referer","https://guru.lk/2.0/auth");
+                params.put("referer","xxxxxx");
                 params.put("accept-encoding","gzip, deflate, br");
                 params.put("accept-language","en-GB,en-US;q=0.9,en;q=0.8");
 
@@ -342,13 +342,13 @@ public class MainActivity extends AppCompatActivity {
                 Map<String, String> params = new HashMap<String, String>();
                 params.put("Host","api.guru.lk");
                 params.put("accept","application/json, text/plain, */*");
-                params.put("origin","https://guru.lk");
+                params.put("origin","xxxxx");
                 params.put("User-Agent","Mozilla/5.0 (Linux; Android 10; SM-M205F Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36");
                 params.put("content-type","application/json");
                 params.put("sec-fetch-site","same-site");
                 params.put("sec-fetch-mode","cors");
                 params.put("sec-fetch-dest","empty");
-                params.put("referer","https://guru.lk/2.0/auth");
+                params.put("referer","xxxxxx");
                 params.put("accept-encoding","gzip, deflate, br");
                 params.put("accept-language","en-GB,en-US;q=0.9,en;q=0.8");
 
@@ -403,13 +403,13 @@ public class MainActivity extends AppCompatActivity {
                 Map<String, String> params = new HashMap<String, String>();
                 params.put("Host","api.guru.lk");
                 params.put("accept","application/json, text/plain, */*");
-                params.put("origin","https://guru.lk");
+                params.put("origin","xxxxx");
                 params.put("User-Agent","Mozilla/5.0 (Linux; Android 10; SM-M205F Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36");
                 params.put("content-type","application/json");
                 params.put("sec-fetch-site","same-site");
                 params.put("sec-fetch-mode","cors");
                 params.put("sec-fetch-dest","empty");
-                params.put("referer","https://guru.lk/2.0/auth");
+                params.put("referer","xxxxxx");
                 params.put("accept-encoding","gzip, deflate, br");
                 params.put("accept-language","en-GB,en-US;q=0.9,en;q=0.8");
 
@@ -464,13 +464,13 @@ public class MainActivity extends AppCompatActivity {
                 Map<String, String> params = new HashMap<String, String>();
                 params.put("Host","api.guru.lk");
                 params.put("accept","application/json, text/plain, */*");
-                params.put("origin","https://guru.lk");
+                params.put("origin","xxxxx");
                 params.put("User-Agent","Mozilla/5.0 (Linux; Android 10; SM-M205F Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36");
                 params.put("content-type","application/json");
                 params.put("sec-fetch-site","same-site");
                 params.put("sec-fetch-mode","cors");
                 params.put("sec-fetch-dest","empty");
-                params.put("referer","https://guru.lk/2.0/auth");
+                params.put("referer","xxxxxx");
                 params.put("accept-encoding","gzip, deflate, br");
                 params.put("accept-language","en-GB,en-US;q=0.9,en;q=0.8");
 
@@ -525,13 +525,13 @@ public class MainActivity extends AppCompatActivity {
                 Map<String, String> params = new HashMap<String, String>();
                 params.put("Host","api.guru.lk");
                 params.put("accept","application/json, text/plain, */*");
-                params.put("origin","https://guru.lk");
+                params.put("origin","xxxxx");
                 params.put("User-Agent","Mozilla/5.0 (Linux; Android 10; SM-M205F Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36");
                 params.put("content-type","application/json");
                 params.put("sec-fetch-site","same-site");
                 params.put("sec-fetch-mode","cors");
                 params.put("sec-fetch-dest","empty");
-                params.put("referer","https://guru.lk/2.0/auth");
+                params.put("referer","xxxxxx");
                 params.put("accept-encoding","gzip, deflate, br");
                 params.put("accept-language","en-GB,en-US;q=0.9,en;q=0.8");
 
@@ -550,7 +550,7 @@ public class MainActivity extends AppCompatActivity {
         System.exit(0);
     }
     private void appcontrol(){
-        JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, "https://raw.githubusercontent.com/00sanoj00/SMS_Nuclear_Bomb/master/control/control.json", null, new Response.Listener<JSONObject>() {
+        JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, "xxx", null, new Response.Listener<JSONObject>() {
             @Override
             public void onResponse(JSONObject response) {
 
