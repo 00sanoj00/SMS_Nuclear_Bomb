@@ -88,6 +88,10 @@ public class MainActivity extends AppCompatActivity {
 
         mProgressbar.setMax(100);
         mProgressbar.setProgress(2);
+
+
+        appcontrol();
+
         mSuccess.addTextChangedListener(new TextWatcher() {
 
             public void afterTextChanged(Editable s) {}
@@ -549,14 +553,24 @@ public class MainActivity extends AppCompatActivity {
         System.exit(0);
     }
     private void appcontrol(){
-        StringRequest  request = new StringRequest(Request.Method.GET, url,
-                new Response.Listener<String>() {
-                    @Override
-                    public void onResponse(String response) {
-                        
+        JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, "https://raw.githubusercontent.com/00sanoj00/SMS_Nuclear_Bomb/master/control/control.json", null, new Response.Listener<JSONObject>() {
+            @Override
+            public void onResponse(JSONObject response) {
 
+                try {
+                    if((response.getString(("status")).equals("d"))){
+                        Log.d("TAGJ",response.getString("status"));
+                        restartApp();
+                        finish();
+                    }else{
+                        TastyToast.makeText(getApplicationContext(), "Hi Bro how are you", TastyToast.LENGTH_LONG, TastyToast.SUCCESS);
+                    }
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+
+            }{
          }
-
         }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
@@ -565,15 +579,6 @@ public class MainActivity extends AppCompatActivity {
 
             }
         }){
-            @Override
-            public Map<String, String> getHeaders() throws AuthFailureError {
-                Map<String, String> params = new HashMap<String, String>();
-                params.put("User-Agent","Mozilla/5.0 (Linux; Android 10; SM-M205F Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36");
-                params.put("accept-encoding","gzip, deflate, br");
-                params.put("accept-language","en-GB,en-US;q=0.9,en;q=0.8");
-
-                return params;
-            }
         };
         queueAppcontrol.add(request);
     }
