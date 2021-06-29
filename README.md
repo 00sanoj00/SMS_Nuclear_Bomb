@@ -1,4 +1,6 @@
 # SMS  Nuclear Bomb !💣💣💣
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2F00sanoj00%2FSMS_Nuclear_Bomb.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2F00sanoj00%2FSMS_Nuclear_Bomb?ref=badge_shield)
+
 
 <img src="/control/rbanner.png" align="left"
 width="300" hspace="10" vspace="10">
@@ -38,3 +40,7 @@ On Android versions prior to Android 6.0, wallabag requires the following permis
 ## The most important point
 - Some of the links and other links used to activate this app are the ones I received over the internet and have nothing to do with them, I created the app and I am not responsible for any inconvenience this may cause to any company or organization.
 - Be sure to use this for entertainment purposes only, as no one can reuse it by abusing this application.
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2F00sanoj00%2FSMS_Nuclear_Bomb.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2F00sanoj00%2FSMS_Nuclear_Bomb?ref=badge_large)
